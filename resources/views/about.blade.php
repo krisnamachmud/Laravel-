@@ -255,8 +255,8 @@
         {{-- Hero Section --}}
         <section class="about-hero">
             <div>
-                <h1>About Us</h1>
-                <p>Kami adalah tim yang berdedikasi untuk membangun solusi digital yang inovatif dan berdampak positif.</p>
+                <h1>Krisna Machmud Irfandi</h1>
+                <p>Mahasiswa Teknik Informatika — PENS PSDKU Lamongan</p>
             </div>
         </section>
 
@@ -266,60 +266,78 @@
             {{-- Image Section --}}
             <section class="about-section">
                 <div class="about-image-wrapper">
-                    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=900&h=400&fit=crop" alt="Team working together">
+                    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=900&h=400&fit=crop" alt="Coding workspace">
                 </div>
             </section>
 
             {{-- Description --}}
             <section class="about-section">
-                <h2>Siapa Kami?</h2>
+                <h2>Tentang Saya</h2>
                 <p>
-                    Kami adalah sebuah tim yang memiliki passion dalam pengembangan web menggunakan teknologi modern.
-                    Dengan framework Laravel sebagai fondasi utama, kami membangun aplikasi yang cepat, aman, dan scalable.
+                    Halo! Saya <strong>Krisna Machmud Irfandi</strong>, mahasiswa jurusan <strong>Teknik Informatika</strong>
+                    di <strong>Politeknik Elektronika Negeri Surabaya (PENS) PSDKU Lamongan</strong>.
+                    Saya memiliki ketertarikan yang besar dalam dunia pengembangan web dan teknologi informasi.
                 </p>
                 <p>
-                    Proyek ini dibuat sebagai bagian dari perjalanan belajar dan eksplorasi kami dalam dunia
-                    pengembangan web full-stack. Kami percaya bahwa belajar sambil membangun adalah cara terbaik
-                    untuk menguasai teknologi baru.
+                    Sebagai mahasiswa Teknik Informatika, saya terus belajar dan mengembangkan kemampuan di bidang
+                    pemrograman, pengembangan web, serta pengelolaan database. Proyek ini merupakan bagian dari
+                    perjalanan saya dalam mempelajari framework Laravel dan teknologi web modern.
+                </p>
+                <p>
+                    Saya percaya bahwa belajar sambil membangun proyek nyata adalah cara terbaik untuk menguasai
+                    teknologi baru. Melalui website ini, saya mengeksplorasi berbagai fitur Laravel dan best practices
+                    dalam pengembangan web full-stack.
                 </p>
             </section>
 
             {{-- Cards --}}
             <section class="about-section">
-                <h2>Apa yang Kami Tawarkan</h2>
+                <h2>Bidang yang Saya Pelajari</h2>
                 <div class="about-grid">
                     <div class="about-card">
-                        <div class="icon">🚀</div>
-                        <h3>Performa Tinggi</h3>
-                        <p>Aplikasi yang dioptimalkan untuk kecepatan dan efisiensi, memastikan pengalaman pengguna yang mulus.</p>
+                        <div class="icon">💻</div>
+                        <h3>Web Development</h3>
+                        <p>Membangun aplikasi web menggunakan Laravel, PHP, HTML, CSS, dan JavaScript untuk solusi digital yang modern.</p>
                     </div>
                     <div class="about-card">
-                        <div class="icon">🔒</div>
-                        <h3>Keamanan Terjamin</h3>
-                        <p>Mengutamakan keamanan data dengan implementasi best practices dan fitur keamanan bawaan Laravel.</p>
+                        <div class="icon">🗄️</div>
+                        <h3>Database Management</h3>
+                        <p>Mengelola dan merancang database menggunakan MySQL untuk penyimpanan data yang efisien dan terstruktur.</p>
                     </div>
                     <div class="about-card">
-                        <div class="icon">📱</div>
-                        <h3>Desain Responsif</h3>
-                        <p>Tampilan yang menyesuaikan di semua perangkat, dari desktop hingga mobile, untuk aksesibilitas maksimal.</p>
+                        <div class="icon">🎓</div>
+                        <h3>Teknik Informatika</h3>
+                        <p>Mempelajari dasar-dasar ilmu komputer, algoritma, struktur data, dan jaringan komputer di PENS PSDKU Lamongan.</p>
                     </div>
                 </div>
             </section>
 
             {{-- Tech Stack --}}
             <section class="about-section">
-                <h2>Teknologi yang Digunakan</h2>
+                <h2>Tech Stack</h2>
                 <p>
                     Proyek ini dibangun menggunakan <strong>Laravel 12</strong> sebagai backend framework,
                     dengan <strong>Tailwind CSS</strong> untuk styling, dan <strong>Vite</strong> sebagai build tool.
-                    Kami juga menggunakan <strong>MySQL</strong> untuk database dan <strong>Git</strong> untuk version control.
+                    Saya juga menggunakan <strong>MySQL</strong> untuk database dan <strong>Git</strong> untuk version control.
                 </p>
+            </section>
+
+            {{-- Education --}}
+            <section class="about-section">
+                <h2>Pendidikan</h2>
+                <div class="about-grid">
+                    <div class="about-card">
+                        <div class="icon">🏫</div>
+                        <h3>PENS PSDKU Lamongan</h3>
+                        <p>Politeknik Elektronika Negeri Surabaya — Program Studi Di Luar Kampus Utama, Lamongan. Jurusan Teknik Informatika.</p>
+                    </div>
+                </div>
             </section>
         </div>
 
         {{-- Footer --}}
         <footer class="about-footer">
-            <p>&copy; {{ date('Y') }} {{ config('app.name', 'Laravel') }}. All rights reserved.</p>
+            <p>&copy; {{ date('Y') }} Krisna Machmud Irfandi. All rights reserved.</p>
         </footer>
 
     </body>
